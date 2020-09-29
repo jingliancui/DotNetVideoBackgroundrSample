@@ -3,6 +3,7 @@ Sample for showing video background on Xamarin.Forms
 
 Tutorial:
 
+https://mp.weixin.qq.com/s/PKjqdiLaTHiM1MSZKthWjg
 
 
 QQ Group:313308215
