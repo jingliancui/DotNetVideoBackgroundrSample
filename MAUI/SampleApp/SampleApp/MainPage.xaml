@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="SampleApp.MainPage">
+
+    <ScrollView>
+        <Grid>
+
+            <toolkit:MediaElement x:Name="Player" Source="embed://video.mp4" ShouldShowPlaybackControls="False" ShouldAutoPlay="True" ShouldLoopPlayback="True" Aspect="AspectFill" Volume="0">
+            </toolkit:MediaElement>
+
+            <StackLayout VerticalOptions="Center" >
+                <Entry Placeholder="User Name"></Entry>
+                <Entry Placeholder="Password" IsPassword="True"></Entry>
+            </StackLayout>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
